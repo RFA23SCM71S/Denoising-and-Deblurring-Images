@@ -8,3 +8,5 @@ Enhance image denoising techniques through the evaluation and optimization of va
 
 ## Solution:
 The proposed solution focuses on image denoising and deblurring using neural networks, particularly autoencoders. Autoencoders are employed for unsupervised learning, aiming to compress input data into a latent representation and then reconstruct the image, deliberately removing noisy pixels and enhancing structural information during reconstruction. To improve image quality, advanced dual autoencoder architectures are introduced. These dual autoencoders consist of two layers, where the first layer reduces noise, and the second layer enhances image reconstruction. To mitigate increased computational complexity, depth wise separable layers are used, improving training and inference speed, albeit with a slight decrease in accuracy. The solution also explores a variant with skip connections between the two encoders, inspired by ResNet architecture, enhancing information flow for better image reconstruction.
+
+![Sample Results](https://github.com/Raghukarn/Denoising-and-Deblurring-Images/assets/119719960/5f87087f-2e13-472e-a6b6-0b3924ba6420)
