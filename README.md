@@ -1,4 +1,4 @@
-# Denoising and Deblurring Images using Dual Autoencoders
+# Denoising and Deblurring Images with Autoencoders
 
 ## Project Goal:
 Enhance image quality by developing and optimizing advanced dual autoencoder architectures, including skip connections, to effectively remove noise and improve image reconstruction for various applications.
